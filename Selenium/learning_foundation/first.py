@@ -22,5 +22,6 @@ browser.find_element_by_id('uname').send_keys("admin")
 browser.find_element_by_id("pwd").send_keys("123")
 browser.find_element_by_id("J-login-btn").click()
 
+
 # browser.refresh()
 # browser.quit()
