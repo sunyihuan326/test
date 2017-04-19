@@ -21,7 +21,11 @@ browser.get(url)
 browser.find_element_by_id('account').send_keys("lby")
 browser.find_element_by_id("password").send_keys("123456")
 browser.find_element_by_id("J-login-btn").click()
+browser.find_element_by_link_text('主页素材').click()
+browser.find_element_by_link_text('数据分析').click()
+browser.find_element_by_link_text('流量统计').click()
+
 
 
 # browser.refresh()
-browser.quit()
+# browser.quit()
