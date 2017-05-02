@@ -34,4 +34,5 @@ if __name__ == "__main__":
     rest = gen_last_value(15,5)
     print "value:", rest
 
+
 print 15*14*13*12*11/(5*4*3*2)
